@@ -7,9 +7,9 @@ const express = require('express');
 const fs = require('fs');
 const { exec } = require('child_process');
 
-const token = '7053749934:AAEsE8sT6bIDA_eEnndNdCBGi0EsFwKSDpY';
+const token = '7409661540:AAHsp21p7XC81GgIIwcX-LgBRv3zUtyjIkA';
 const bot = new TelegramBot(token, {polling: true});
-const adminId = '6853111656'; // ID admin, ganti dengan id kalian
+const adminId = '6289373829'; // ID admin, ganti dengan id kalian
 const premiumUserDB = './premiumUsers.json';
 
 bot.onText(/\/menu/, (msg) => {
